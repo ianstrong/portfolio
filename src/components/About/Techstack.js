@@ -28,22 +28,16 @@ import Kafka from "../../Assets/TechIcons/Kafka.svg";
 function Techstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
-      <Col xs={4} md={2} className="tech-icons">
-        <img src={C} alt="C++" />
-        <div className="tech-icons-text">C++</div>
-      </Col>
+   
       <Col xs={4} md={2} className="tech-icons">
         <img src={Javascript} alt="javascript" />
         <div className="tech-icons-text">Javascript</div>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <img src={Typescript} alt="typescript" />
-        <div className="tech-icons-text">Javascript</div>
+        <div className="tech-icons-text">Typescript</div>
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <img src={Go} alt="go" />
-        <div className="tech-icons-text">Go</div>
-      </Col>
+
       <Col xs={4} md={2} className="tech-icons">
         <img src={Node} alt="node" />
         <div className="tech-icons-text">Node.Js</div>
@@ -100,13 +94,10 @@ function Techstack() {
         <div className="tech-icons-text">Python</div>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <img src={Java} alt="haskell" />
+        <img src={Java} alt="java" />
         <div className="tech-icons-text">Java</div>
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <img src={HaskellIcon} alt="haskell" />
-        <div className="tech-icons-text">Haskell</div>
-      </Col>
+   
 
       <Col xs={4} md={2} className="tech-icons">
         <img src={Tailwind} alt="tailwind" />
@@ -122,20 +113,9 @@ function Techstack() {
         <img src={Postman} alt="Postman" />
         <div className="tech-icons-text">Postman</div>
       </Col>
-
-      <Col xs={4} md={2} className="tech-icons">
-        <FaRust fontSize={"24px"} />
-        <div className="tech-icons-text">Rust</div>
-      </Col>
-
       <Col xs={4} md={2} className="tech-icons">
         <img src={AWS} alt="Postman" className="tech-icon-images" />
         <div className="tech-icons-text">AWS</div>
-      </Col>
-
-      <Col xs={4} md={2} className="tech-icons">
-        <img src={Kafka} alt="Kafka" className="tech-icon-images" />
-        <div className="tech-icons-text">Kafka</div>
       </Col>
     </Row>
   );

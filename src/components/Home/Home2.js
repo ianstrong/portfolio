@@ -1,7 +1,9 @@
 import React from "react";
-import { Container, Row, Col } from "react-bootstrap";
-import myImg from "../../Assets/avatar.svg";
+import myImg from "../../Assets/self1.JPG";
 import Tilt from "react-parallax-tilt";
+import { AiOutlineDownload } from "react-icons/ai";
+
+import { Container, Row, Col, Button } from "react-bootstrap";
 
 function Home2() {
   return (
@@ -21,10 +23,7 @@ function Home2() {
               <br />
               I’m proficient in
               <i>
-                <b className="purple">
-                  {" "}
-                  JavaScript, C++, Rust, Node.js, and Java{" "}
-                </b>
+                <b className="purple"> JavaScript, Node.js, and Java </b>
               </i>
               — and I enjoy working across both backend and frontend stacks.
               <br />
@@ -33,10 +32,9 @@ function Home2() {
               <i>
                 <b className="purple">
                   {" "}
-                  Web Applications, Blockchain Solutions,{" "}
+                  Web Applications and Mobile Applications.
                 </b>
               </i>
-              and exploring new ways to bridge on-chain and off-chain systems.
               <br />
               <br />
               Whenever possible, I love building projects with
@@ -50,6 +48,18 @@ function Home2() {
           <Col md={4} className="myAvtar">
             <Tilt>
               <img src={myImg} className="img-fluid" alt="avatar" />
+
+              <Button
+                className="mt-3"
+                variant="primary"
+                href="https://drive.google.com/file/d/1HuJSSzOl9zpBTjl496Pqf6XMT806Su1D/view?usp=sharing"
+                target="_blank"
+                size="lg"
+                style={{ maxWidth: "250px" }}
+              >
+                <AiOutlineDownload style={{ marginBottom: "2px" }} /> Download
+                CV
+              </Button>
             </Tilt>
           </Col>
         </Row>
